@@ -1,0 +1,30 @@
+cases:
+  - id: route-email-student
+    input: "幫我寫信提醒學生明天前補交資料"
+    expected_primary: email_writer
+    expected_support: [critic]
+
+  - id: route-line-group
+    input: "我要在LINE群問大家明天10點能不能繼續開會"
+    expected_primary: instant_message_writer
+    expected_support: []
+
+  - id: route-official-note
+    input: "這份收文簽辦單要怎麼寫比較像公文"
+    expected_primary: formal_admin_writer
+    expected_support: [critic]
+
+  - id: route-shorten
+    input: "這段太冗長，幫我精簡"
+    expected_primary: editor
+    expected_support: []
+
+  - id: route-poster
+    input: "這句要放海報上，一行就好"
+    expected_primary: announcement_writer
+    expected_support: [editor]
+
+  - id: route-external-correction
+    input: "醫院的合約內容有誤，我要請對方確認"
+    expected_primary: email_writer
+    expected_support: [critic]
