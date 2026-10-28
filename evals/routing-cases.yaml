@@ -28,3 +28,9 @@ cases:
     input: "醫院的合約內容有誤，我要請對方確認"
     expected_primary: email_writer
     expected_support: [critic]
+
+  - id: route-internship-contract-domain
+    input: "我要寫信給醫院確認實習合約的院方名稱、用印與份數"
+    expected_primary: email_writer
+    expected_support: [critic]
+    expected_knowledge: [knowledge/work-domains.md]
