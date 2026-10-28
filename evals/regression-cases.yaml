@@ -1,0 +1,92 @@
+cases:
+  - id: concise-reply-no-retelling
+    scenario: reply_email
+    prompt: "對方已知道前情，只需要告訴他校內確認完成並請他確認草稿"
+    must:
+      - "state confirmed status"
+      - "ask for confirmation"
+    must_not:
+      - "retell full history"
+      - "invent additional follow-up"
+
+  - id: student-hard-deadline
+    scenario: student_notice
+    prompt: "提醒學生最晚中午12點前補資料，逾時不受理"
+    must:
+      - "exact deadline"
+      - "clear consequence"
+    must_not:
+      - "soften deadline into suggestion"
+
+  - id: faculty-familiar-tone
+    scenario: internal_faculty
+    prompt: "寫給熟悉老師確認一個人選"
+    must:
+      - "respectful"
+      - "natural"
+      - "clear ask"
+    must_not:
+      - "official-document diction"
+      - "excessive ceremonial wording"
+
+  - id: external-noncoercive
+    scenario: external_coordination
+    prompt: "詢問講師兩個日期哪天方便"
+    must:
+      - "ask availability"
+      - "allow neither date to work"
+    must_not:
+      - "pressure recipient to comply"
+      - "reveal unrelated speakers' schedules"
+
+  - id: line-short-natural
+    scenario: group_message
+    prompt: "在LINE問同事明早10點能否續開會"
+    must:
+      - "brief context"
+      - "specific time"
+      - "direct question"
+    must_not:
+      - "email salutation"
+      - "long formal closing"
+
+  - id: vendor-process-fact
+    scenario: vendor_reply
+    prompt: "廠商已給電子發票，說明收到貨後才依學校流程請款"
+    must:
+      - "acknowledge invoice"
+      - "state payment sequence"
+    must_not:
+      - "accuse vendor"
+      - "overexplain accounting policy"
+
+  - id: no-invented-promise
+    scenario: progress_update
+    prompt: "回覆目前已確認事項"
+    must_not:
+      - "promise to report back unless requested"
+      - "add unconfirmed next steps"
+
+  - id: ask-purpose-before-inviting-students
+    scenario: event_coordination
+    prompt: "對方問學生會不會到場，先問學生到場要做什麼"
+    must:
+      - "show willingness to ask students"
+      - "ask what students need to understand or participate in"
+    must_not:
+      - "assume students must speak"
+      - "sound resistant"
+
+  - id: official-language-only-when-needed
+    scenario: ordinary_email
+    prompt: "一般行政信，非公文"
+    must_not:
+      - "use 来文/函复 style merely to sound formal"
+
+  - id: multiple-options-different
+    scenario: alternatives
+    prompt: "提供5版問法"
+    must:
+      - "variants differ in structure or tone"
+    must_not:
+      - "only synonym swaps"
