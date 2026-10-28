@@ -1,0 +1,24 @@
+# Changelog
+
+## 0.1.0 — 2026-10-28
+
+Initial architecture created from historical conversations in the writing project.
+
+### Added
+- Manager as the single user-facing entry point.
+- Email, instant-message, formal-admin, announcement, editor, and critic specialists.
+- Routing and collaboration rules.
+- Durable style, recipient, scenario, terminology, and recurring-work-domain knowledge.
+- Redacted good/anti-pattern examples.
+- Routing and style regression cases.
+- PDF/image text-ingestion policy.
+- Incremental-learning and weekly-review protocols.
+
+### Core learned behavior
+- natural, concise, complete administrative writing;
+- avoid bureaucratic tone and accidental hierarchy;
+- reduce unnecessary back-and-forth by making the requested action explicit;
+- preserve hard deadlines/rules;
+- avoid repeating known thread context;
+- never invent facts or future commitments;
+- make multiple requested versions genuinely different.
