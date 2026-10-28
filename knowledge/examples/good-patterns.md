@@ -2,19 +2,19 @@
 
 These examples are generalized and redacted from recurring project situations. They are patterns, not templates to copy mechanically.
 
-## A. Internal progress + one remaining ask
+## A. Internal progress + necessary confirmation(s)
 
 **Pattern**
 
 > 老師您好：  
 > 收信平安！  
 >   
-> 目前海報與簡報內容已完成，活動資訊也已公告。報名截止時間為［日期時間］。再請老師協助確認［唯一需要確認的內容］，若無問題，我會依此版本進行後續作業，謝謝！
+> 目前海報與簡報內容已完成，活動資訊也已公告。報名截止時間為［日期時間］。再請老師協助確認［所有必要的確認事項］，謝謝！
 
 **Why it works**
 - progress is stated once;
-- the remaining ask is obvious;
-- no unnecessary history.
+- all necessary confirmations are clear, whether one or several;
+- no unnecessary history or unrequested follow-up promise.
 
 ## B. External document confirmation
 
