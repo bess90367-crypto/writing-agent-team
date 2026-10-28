@@ -1,0 +1,41 @@
+version: 1
+entrypoint: manager
+
+agents:
+  manager:
+    prompt: agents/manager.md
+    role: supervisor
+  email_writer:
+    prompt: agents/email-writer.md
+    surfaces: [email, email_reply]
+  instant_message_writer:
+    prompt: agents/instant-message.md
+    surfaces: [line, dm, group_message]
+  formal_admin_writer:
+    prompt: agents/formal-admin.md
+    surfaces: [official_document, internal_admin_note, formal_notice]
+  announcement_writer:
+    prompt: agents/announcement-writer.md
+    surfaces: [announcement, form_copy, poster_copy, website_notice]
+  editor:
+    prompt: agents/editor.md
+    role: revision
+  critic:
+    prompt: agents/critic.md
+    role: quality_control
+
+knowledge:
+  global:
+    - knowledge/style-rules.md
+    - knowledge/terminology.md
+  by_recipient:
+    - knowledge/recipient-rules.md
+  by_scenario:
+    - knowledge/scenario-rules.md
+
+default_pipeline:
+  - manager
+  - primary_specialist
+  - optional_editor
+  - optional_critic
+  - manager_finalize
