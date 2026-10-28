@@ -5,6 +5,7 @@
 Initial architecture created from historical conversations in the writing project.
 
 ### Added
+- ChatGPT project-level instructions file (`PROJECT_INSTRUCTIONS.md`) defining Manager behavior, GitHub synchronization, attachment ingestion, and proactive learning.
 - Manager as the single user-facing entry point.
 - Email, instant-message, formal-admin, announcement, editor, and critic specialists.
 - Routing and collaboration rules.
