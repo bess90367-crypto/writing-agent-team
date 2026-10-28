@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added a regression case ensuring one-line event/poster copy retains quantity limits, reservation eligibility, and cutoff times; normalized Traditional Chinese wording in an existing regression check.
 - Removed an unrequested scheduling commitment from a generic LINE group-message example and strengthened its regression case; the draft should ask availability without promising additional action.
 - Aligned a historical good-pattern example with the complete one-message coordination rule, and removed an implied follow-up promise from the generic template.
 - Added a regression case protecting well-written user drafts from unnecessary rewrites.
