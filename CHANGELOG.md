@@ -3,6 +3,8 @@
 ## Unreleased
 
 ### Maintenance
+- Aligned a historical good-pattern example with the complete one-message coordination rule, and removed an implied follow-up promise from the generic template.
+- Added a regression case protecting well-written user drafts from unnecessary rewrites.
 - Corrected over-restrictive singular-question guidance in email, faculty, and follow-up rules; added a regression case to preserve complete one-message coordination when multiple questions are necessary.
 - Synced automation documentation with the user's accepted hourly self-optimization schedule while retaining the Monday weekly deep review.
 - Clarified that a review with no meaningful changes should leave repository files untouched and recurring maintenance should remain active.
