@@ -23,6 +23,7 @@ Load the smallest relevant set:
 - `knowledge/style-rules.md`
 - `knowledge/recipient-rules.md`
 - `knowledge/scenario-rules.md`
+- `knowledge/work-domains.md` when the request involves a recurring work domain
 - `knowledge/terminology.md`
 - examples only when a concrete pattern is useful
 
