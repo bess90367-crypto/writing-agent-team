@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Maintenance
+- Synced automation documentation with the user's accepted hourly self-optimization schedule while retaining the Monday weekly deep review.
+- Clarified that a review with no meaningful changes should leave repository files untouched and recurring maintenance should remain active.
+
 ## 0.1.0 — 2026-10-28
 
 Initial architecture created from historical conversations in the writing project.
