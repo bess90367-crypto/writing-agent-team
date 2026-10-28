@@ -83,6 +83,18 @@ cases:
     must_not:
       - "use 来文/函复 style merely to sound formal"
 
+  - id: complete-coordination-multiple-asks
+    scenario: reply_email
+    prompt: "同封信需請老師確認會議時間、參與人員及場地需求，三項都屬於同一安排"
+    must:
+      - "include all three necessary questions in one message"
+      - "group related questions clearly"
+      - "remain concise and natural"
+    must_not:
+      - "arbitrarily keep only one question"
+      - "split necessary questions into avoidable follow-up emails"
+      - "add unrelated requests or invented commitments"
+
   - id: multiple-options-different
     scenario: alternatives
     prompt: "提供5版問法"
