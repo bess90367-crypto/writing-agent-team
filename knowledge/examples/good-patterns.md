@@ -34,12 +34,13 @@ These examples are generalized and redacted from recurring project situations. T
 
 **Pattern**
 
-> 想再跟大家確認一下，明天上午 10:00 是否方便接續討論今天尚未完成的內容？如果可以，我再依這個時間安排，謝謝～
+> 想再跟大家確認一下，明天上午 10:00 是否方便接續討論今天尚未完成的內容？謝謝～
 
 **Why it works**
 - context is one clause;
 - ask appears immediately;
-- tone is conversational.
+- tone is conversational;
+- no unrequested promise to arrange the meeting.
 
 ## D. Vendor payment process
 
