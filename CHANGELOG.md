@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Removed an unrequested scheduling commitment from a generic LINE group-message example and strengthened its regression case; the draft should ask availability without promising additional action.
 - Aligned a historical good-pattern example with the complete one-message coordination rule, and removed an implied follow-up promise from the generic template.
 - Added a regression case protecting well-written user drafts from unnecessary rewrites.
 - Corrected over-restrictive singular-question guidance in email, faculty, and follow-up rules; added a regression case to preserve complete one-message coordination when multiple questions are necessary.
