@@ -18,6 +18,19 @@ cases:
     must_not:
       - "soften deadline into suggestion"
 
+  - id: poster-limit-and-reservation-conditions
+    scenario: short_public_copy
+    prompt: "海報只有一行空間：系友禮限量350份、發完為止；完成活動報名者可保留至16:00，未報名者依現場剩餘數量發放。請精簡。"
+    must:
+      - "respect the one-line poster space constraint"
+      - "retain the limited quantity and while-supplies-last condition"
+      - "retain the registration condition and reservation cutoff"
+      - "make the two eligibility paths understandable"
+    must_not:
+      - "drop behavior-changing details for brevity"
+      - "imply everyone is guaranteed a gift"
+      - "add internal administrative explanation"
+
   - id: faculty-familiar-tone
     scenario: internal_faculty
     prompt: "寫給熟悉老師確認一個人選"
@@ -82,7 +95,7 @@ cases:
     scenario: ordinary_email
     prompt: "一般行政信，非公文"
     must_not:
-      - "use 来文/函复 style merely to sound formal"
+      - "use 來文/函復 style merely to sound formal"
 
   - id: complete-coordination-multiple-asks
     scenario: reply_email
