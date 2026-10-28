@@ -49,6 +49,7 @@ cases:
     must_not:
       - "email salutation"
       - "long formal closing"
+      - "unrequested promise to arrange or follow up"
 
   - id: vendor-process-fact
     scenario: vendor_reply
