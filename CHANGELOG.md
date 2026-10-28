@@ -13,6 +13,8 @@ Initial architecture created from historical conversations in the writing projec
 - Routing and style regression cases.
 - PDF/image text-ingestion policy.
 - Incremental-learning and weekly-review protocols.
+- Project-level proactive update contract.
+- Documented weekly automated maintenance schedule.
 
 ### Core learned behavior
 - natural, concise, complete administrative writing;
