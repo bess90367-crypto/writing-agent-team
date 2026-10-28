@@ -25,7 +25,7 @@ When replying to an existing thread:
 - acknowledge only what matters;
 - preserve thread continuity;
 - state what has been confirmed or completed;
-- ask only the remaining question;
+- ask all remaining necessary questions or actions together when practical; omit unrelated asks and keep each request clear;
 - do not promise a follow-up the user did not intend.
 
 ## Tone control
