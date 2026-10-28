@@ -95,6 +95,16 @@ cases:
       - "split necessary questions into avoidable follow-up emails"
       - "add unrelated requests or invented commitments"
 
+  - id: preserve-existing-draft-minimal-edit
+    scenario: editing_existing_draft
+    prompt: "使用者提供一封已經清楚完整的信，僅要求修順一個語氣不自然的句子"
+    must:
+      - "preserve the original facts, structure, and intended tone"
+      - "change only what is necessary for clarity or tone"
+    must_not:
+      - "rewrite well-written sections just to show changes"
+      - "add commitments or facts not supplied by the user"
+
   - id: multiple-options-different
     scenario: alternatives
     prompt: "提供5版問法"
