@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Corrected over-restrictive singular-question guidance in email, faculty, and follow-up rules; added a regression case to preserve complete one-message coordination when multiple questions are necessary.
 - Synced automation documentation with the user's accepted hourly self-optimization schedule while retaining the Monday weekly deep review.
 - Clarified that a review with no meaningful changes should leave repository files untouched and recurring maintenance should remain active.
 
