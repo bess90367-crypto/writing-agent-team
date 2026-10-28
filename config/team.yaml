@@ -32,6 +32,8 @@ knowledge:
     - knowledge/recipient-rules.md
   by_scenario:
     - knowledge/scenario-rules.md
+  by_domain:
+    - knowledge/work-domains.md
 
 default_pipeline:
   - manager
