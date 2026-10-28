@@ -1,0 +1,33 @@
+# Attachment Ingestion Policy
+
+## Goal
+
+When the user provides a PDF or image as learning material, convert it into searchable text first, then reason from the text and distill reusable knowledge.
+
+## PDF workflow
+
+1. Prefer the PDF's embedded text layer when available.
+2. Inspect page layout visually when tables, forms, stamps, annotations, or scan quality could affect meaning.
+3. For image-only/scanned pages, use visual reading/transcription; use OCR only when necessary.
+4. Preserve page boundaries or headings when they matter.
+5. Normalize obvious extraction artifacts without silently changing substantive wording.
+
+## Image workflow
+
+1. Read the image visually.
+2. Transcribe relevant text into structured Markdown.
+3. Preserve visible hierarchy: title, labels, table rows, dates, annotations.
+4. Mark uncertain text rather than guessing.
+
+## Learning workflow
+
+After transcription:
+1. identify factual content needed for the current task;
+2. identify durable writing/administrative rules;
+3. separate one-off facts from reusable knowledge;
+4. store reusable learning in the appropriate `knowledge/` file;
+5. add a regression case if the source reveals a recurring failure mode.
+
+## Public repository handling
+
+The repository is public by user choice. Prefer committing distilled/redacted learning rather than unnecessary raw personal correspondence. If the raw extracted text itself is important as a reusable source, store it under `knowledge/sources/` with enough context to understand what it teaches.
