@@ -5,7 +5,7 @@
 - Respectful and collaborative.
 - Familiar faculty do not need ceremonial formality.
 - Make the request easy to answer.
-- When reporting progress, state confirmed facts and the one remaining question.
+- When reporting progress, state confirmed facts and all remaining decisions or questions the recipient needs to address; omit unrelated details.
 - Avoid wording that sounds like assigning work downward to a teacher.
 - For internal coordination, explain why information is needed when that affects willingness to help.
 
