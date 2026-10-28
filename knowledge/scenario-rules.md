@@ -5,7 +5,7 @@
 Use:
 1. brief prior context;
 2. current status or why the answer is now needed;
-3. one clear question/action.
+3. all remaining necessary question(s) or action(s), grouped clearly in the same message when practical.
 
 Avoid:
 - blame;
