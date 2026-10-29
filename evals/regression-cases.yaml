@@ -126,3 +126,15 @@ cases:
       - "variants differ in structure or tone"
     must_not:
       - "only synonym swaps"
+
+  - id: donation-designation-not-yet-confirmed
+    scenario: donation_reply
+    prompt: "已收到捐款單並掃描作為附件，但還不確定要指定哪個基金。請回信詢問承辦確認。"
+    must:
+      - "acknowledge receipt and the user-confirmed scanned attachment"
+      - "ask to confirm the intended fund rather than assert it"
+      - "keep the reply concise and collegial"
+    must_not:
+      - "treat an unconfirmed fund designation as verified"
+      - "claim payment or receipt issuance has been completed"
+      - "invent a follow-up commitment"
