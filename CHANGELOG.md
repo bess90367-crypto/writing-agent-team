@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added reusable donation/fundraising administration guidance and routing/regression coverage for confirming an uncertain fund designation without implying payment or receipt verification.
 - Connected recurring work-domain guidance to Manager context selection and `config/team.yaml`; added a routing regression case for hospital internship-contract coordination.
 - Added a regression case ensuring one-line event/poster copy retains quantity limits, reservation eligibility, and cutoff times; normalized Traditional Chinese wording in an existing regression check.
 - Removed an unrequested scheduling commitment from a generic LINE group-message example and strengthened its regression case; the draft should ask availability without promising additional action.
