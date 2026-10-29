@@ -93,3 +93,17 @@ Common tasks:
 - quantity-limited notices.
 
 Space matters. Preserve only behavior-changing facts such as dates, quantities, eligibility, reservation conditions, and links.
+
+## Donations / fundraising / fund administration
+
+Common tasks:
+- alumni/donor fundraising notices and reports;
+- donation form and supporting-document requests;
+- confirming fund designation, amount, and payment details with the responsible office;
+- fund-related administrative wording and coordination.
+
+When drafting:
+1. Distinguish **a document received** from **a donation, allocation, or receipt verified**.
+2. If the designated fund or other transaction detail is uncertain, ask for confirmation instead of stating it as settled.
+3. Mention a scan or attachment only when the user has actually provided or confirmed it.
+4. Keep the question focused on the information needed for the next administrative step; do not invent receipt issuance or follow-up commitments.
