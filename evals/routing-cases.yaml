@@ -34,3 +34,9 @@ cases:
     expected_primary: email_writer
     expected_support: [critic]
     expected_knowledge: [knowledge/work-domains.md]
+
+  - id: route-donation-fund-confirmation
+    input: "我要回信給校友處，捐款單已收到並掃描附上，但還要確認指定的捐款基金"
+    expected_primary: email_writer
+    expected_support: [critic]
+    expected_knowledge: [knowledge/work-domains.md]
