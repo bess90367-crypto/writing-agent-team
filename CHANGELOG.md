@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Fixed an attachment-less insurance spreadsheet regression case that previously required impossible file inspection: test now uses the user's stated workbook/example difference and explicitly forbids claims of independent verification; actual attachments still require inspection under the ingestion policy.
 - Added spreadsheet-based administrative drafting safeguards after an insurance reimbursement correction: verify the workbook against its example, preserve the required individual-to-total aggregation direction, and ask who advanced payment without guessing; added a focused regression case.
 - Aligned hospital first-contact knowledge with the existing regression test: distinguish student pre-placement submissions, official-letter attachments, and separately submitted documents; treat known document categories as questions rather than confirmed requirements.
 - Strengthened the first-contact hospital internship regression case to require 正本/副本 routing, branch mailing address, conditional umbrella-agreement/new-contract checks, and specific pre-placement versus official-letter attachment questions (e.g., health exam and insurance) without assuming branch procedures.
