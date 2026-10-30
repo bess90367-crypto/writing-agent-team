@@ -138,3 +138,15 @@ cases:
       - "treat an unconfirmed fund designation as verified"
       - "claim payment or receipt issuance has been completed"
       - "invent a follow-up commitment"
+
+  - id: internal-date-screening-before-poll
+    scenario: group_message
+    prompt: "先在系辦LINE工作群確認慶功宴投票是否以11/19至11/30為範圍、是否還有其他日期要避開；我11/27有公差，希望排除當天。請擬群組訊息。"
+    must:
+      - "ask whether the proposed range is suitable and whether other dates should be avoided"
+      - "state the known unavailable date as an exclusion"
+      - "keep the internal LINE message concise and conversational"
+    must_not:
+      - "treat the known unavailable date as an available poll option"
+      - "assume the wider poll is already approved or launched"
+      - "invent other scheduling constraints"

@@ -63,3 +63,7 @@ For posters/forms:
 - lead with benefit/limit/deadline;
 - remove internal explanation;
 - preserve any number or condition that changes behavior.
+
+## 11. Internal date screening before a wider scheduling poll
+
+When the user wants to check an internal team's constraints before polling a wider group, draft the internal check first. Ask whether the proposed date range works and whether any other dates should be excluded. Explicitly respect known unavailable dates; do not present them as available poll options or imply the wider poll has already been approved.
