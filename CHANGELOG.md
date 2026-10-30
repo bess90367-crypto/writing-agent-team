@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added first-contact hospital internship coordination guidance: confirm official-letter routing, verify whether an existing multi-year agreement applies, conditionally request a new contract copy for school sealing, and ask for required supporting documents without assuming branch procedures are identical.
 - Clarified two-stage group scheduling: check internal date exclusions before a wider poll, and added a regression case preventing known unavailable dates from being offered as options.
 - Added reusable donation/fundraising administration guidance and routing/regression coverage for confirming an uncertain fund designation without implying payment or receipt verification.
 - Connected recurring work-domain guidance to Manager context selection and `config/team.yaml`; added a routing regression case for hospital internship-contract coordination.
