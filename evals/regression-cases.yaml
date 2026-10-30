@@ -153,9 +153,9 @@ cases:
 
   - id: insurance-claim-spreadsheet-aggregation
     scenario: internship_reimbursement_email
-    prompt: "學生提供的保費請款Excel把費用分到各實習學生名下，但學校請款範例只需要保費總金額。請先核對檔案及範例，再用自然精簡的語氣請學生將逐人拆分改成總金額，並確認目前是誰先墊付保費；不要推測金額或付款人。"
+    prompt: "使用者描述：學生提供的保費請款Excel把費用分到各實習學生名下，但學校請款範例只需要保費總金額。這次沒有附上Excel或範例檔。請根據使用者描述，以自然精簡的語氣請學生將逐人拆分改成總金額，並確認目前是誰先墊付保費；不要推測金額或付款人，也不要聲稱已核對檔案。"
     must:
-      - "check the workbook against the example before describing the correction"
+      - "base the correction on the user-described workbook/example difference when files are not available"
       - "clearly request changing the per-student breakdown into one total amount for the school claim"
       - "ask who advanced the insurance premium"
       - "keep the email concise and student-friendly"
