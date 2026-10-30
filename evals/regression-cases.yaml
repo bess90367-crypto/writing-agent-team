@@ -153,15 +153,17 @@ cases:
 
   - id: hospital-first-contact-conditional-coordination
     scenario: hospital_internship_email
-    prompt: "學生已錄取某醫院分院實習，第一次聯繫該院教學行政窗口。學校公文系統沒有該分院資料，需要確認正式受文單位及郵寄地址；之前與同體系其他院區有多年期實習合約，但不確定是否適用；若需新約，希望先取得電子檔辦理校內用印，並確認發文時應附哪些資料。請擬一封簡潔的詢問信。"
+    prompt: "學生已錄取某醫院分院實習，第一次聯繫該院教學行政窗口。學校公文系統沒有該分院資料，需要確認公文正本受文單位、院區郵寄地址，以及是否須副本給學生實習科別或其他單位；之前與同體系其他院區有多年期實習合約，但不確定是否適用；若需新約，希望先取得電子檔辦理校內用印。已知學生實習前可能涉及體檢、保險證明等資料，尚不確定院方要求哪些、哪些可隨公文檢附或需另外繳交。請擬一封簡潔且一次問清楚的信。"
     must:
-      - "ask for the exact official-letter recipient and mailing address needed for dispatch"
+      - "ask for the exact 正本 recipient and branch mailing address needed for dispatch"
+      - "ask whether the internship department or another unit should receive a 副本"
       - "ask whether an existing multi-year agreement covers this placement without assuming it does"
       - "conditionally ask for an electronic agreement copy if a new agreement is required"
-      - "ask which supporting documents should accompany the official letter"
+      - "use the known health-exam and insurance categories to ask what the student must submit before placement, and which documents can accompany the official letter versus be submitted separately"
       - "combine related setup questions into one concise, courteous email"
     must_not:
       - "assume another hospital branch follows the same process"
       - "state that the existing agreement definitely applies"
       - "demand a new agreement before its necessity is confirmed"
-      - "invent specific required attachments, deadlines, or procedures"
+      - "invent confirmed attachment requirements, deadlines, or procedures"
+      - "replace concrete pre-placement and official-letter attachment questions with a vague generic request"
