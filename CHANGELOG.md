@@ -3,7 +3,7 @@
 ## Unreleased
 
 ### Maintenance
-- Added a regression case for first-contact hospital internship coordination: confirm the official-letter recipient/address, check umbrella-agreement applicability, conditionally request a new contract, and ask for supporting documents without assuming branch procedures.
+- Strengthened the first-contact hospital internship regression case to require 正本/副本 routing, branch mailing address, conditional umbrella-agreement/new-contract checks, and specific pre-placement versus official-letter attachment questions (e.g., health exam and insurance) without assuming branch procedures.
 - Added first-contact hospital internship coordination guidance: confirm official-letter routing, verify whether an existing multi-year agreement applies, conditionally request a new contract copy for school sealing, and ask for required supporting documents without assuming branch procedures are identical.
 - Clarified two-stage group scheduling: check internal date exclusions before a wider poll, and added a regression case preventing known unavailable dates from being offered as options.
 - Added reusable donation/fundraising administration guidance and routing/regression coverage for confirming an uncertain fund designation without implying payment or receipt verification.
