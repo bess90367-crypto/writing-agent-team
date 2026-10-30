@@ -35,7 +35,7 @@ For a **first contact with a hospital teaching/administrative office after a stu
 2. confirm official-letter routing precisely: who should receive the **正本**, whether the student's internship department/unit or any other office should receive a **副本**, and, if the school's document system lacks the branch/unit record, the full mailing address for dispatch;
 3. if an existing multi-year/umbrella internship agreement may apply, state it as background and ask whether this placement is covered rather than assuming;
 4. if a new agreement is required, ask whether an electronic copy can be provided first so the school can complete internal sealing and send it with the official letter;
-5. ask which internship-related materials the hospital wants included with the official letter. Reflect the user's known document categories when available (for example insurance proof, health-exam records, student forms/photos, agreement copies, or other reporting materials), and ask for required format, copies, or deadlines when relevant rather than using a generic unsupported phrase.
+5. ask which documents the student must submit before starting the internship and which may be attached to the school's official letter versus submitted separately. Use known categories (for example insurance proof, health-exam records, student forms/photos, or agreement copies) as concrete questions, not confirmed requirements; ask about formats, copies, or deadlines only when relevant.
 
 Do not assume that different branches/departments of the same hospital follow the same sequence. Frame prior cooperation as context, then ask the current unit to confirm its own process.
 
