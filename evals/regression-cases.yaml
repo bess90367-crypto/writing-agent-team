@@ -164,6 +164,21 @@ cases:
       - "invent a premium total, payer, or reimbursement status"
       - "claim the spreadsheet was verified when it was not inspected"
 
+  - id: insurance-claim-aggregation-with-explicit-payer-check
+    scenario: internship_reimbursement_email
+    prompt: "使用者要寫信給學生：保費請款表不應把每人234元分別列入20位學生的金額欄，學校只需要總額4,680元（20×234），填在第一筆、其餘金額欄留白；使用者也明確要求同封信確認目前保費由誰先墊付。本測試僅提供上述文字，未附Excel。請用自然精簡的語氣擬信。"
+    must:
+      - "ask the student to replace the individual premium entries with the aggregate total in the required location, leaving other amount cells blank"
+      - "preserve the provided total of 4,680 without inventing other amounts"
+      - "also ask who advanced the premium payment, because the user explicitly requested it"
+      - "combine both requested actions in one concise, student-friendly email"
+    must_not:
+      - "omit the explicit payer question by misclassifying the whole request as format-only"
+      - "infer the payer or reimbursement recipient"
+      - "reverse the direction and ask for per-student amounts"
+      - "claim the workbook was inspected when no attachment was supplied"
+      - "invent a refund or follow-up commitment"
+
   - id: hospital-first-contact-conditional-coordination
     scenario: hospital_internship_email
     prompt: "學生已錄取某醫院分院實習，第一次聯繫該院教學行政窗口。學校公文系統沒有該分院資料，需要確認公文正本受文單位、院區郵寄地址，以及是否須副本給學生實習科別或其他單位；之前與同體系其他院區有多年期實習合約，但不確定是否適用；若需新約，希望先取得電子檔辦理校內用印。已知學生實習前可能涉及體檢、保險證明等資料，尚不確定院方要求哪些、哪些可隨公文檢附或需另外繳交。請擬一封簡潔且一次問清楚的信。"
