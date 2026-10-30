@@ -39,6 +39,8 @@ For a **first contact with a hospital teaching/administrative office after a stu
 
 Do not assume that different branches/departments of the same hospital follow the same sequence. Frame prior cooperation as context, then ask the current unit to confirm its own process.
 
+For internship-related insurance reimbursement or school claims, distinguish the detailed per-student calculation from the amount actually required on the school submission. If the school needs only a combined total, do not ask the student to provide individual premium amounts as the claim format. When payment was advanced, ask **who paid upfront** before asserting who should be reimbursed; do not infer the payer from the workbook.
+
 ## Course / TA / student administration
 
 Common tasks:
