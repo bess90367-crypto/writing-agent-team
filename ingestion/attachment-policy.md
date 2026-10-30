@@ -19,6 +19,13 @@ When the user provides a PDF or image as learning material, convert it into sear
 3. Preserve visible hierarchy: title, labels, table rows, dates, annotations.
 4. Mark uncertain text rather than guessing.
 
+## Spreadsheet workflow
+
+When a user asks for a message based on a workbook or a supplied example/template:
+1. Inspect the actual workbook and the relevant example before describing what is wrong or asking for a correction.
+2. Check headings, rows, formulas/totals, and whether the requested change is **individual breakdown → aggregate total** or the reverse; do not infer direction from a brief description alone.
+3. Separate what the file shows from what the user says the receiving office requires. If the file cannot be inspected, do not claim to have verified its contents.
+
 ## Learning workflow
 
 After transcription:
