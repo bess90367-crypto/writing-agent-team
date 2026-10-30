@@ -2,7 +2,7 @@
 
 ## Goal
 
-When the user provides a PDF or image as learning material, convert it into searchable text first, then reason from the text and distill reusable knowledge.
+When the user provides a PDF, image, or spreadsheet for a task, inspect its contents in a suitable readable or structured form before drafting and distilling reusable knowledge.
 
 ## PDF workflow
 
@@ -28,7 +28,7 @@ When a user asks for a message based on a workbook or a supplied example/templat
 
 ## Learning workflow
 
-After transcription:
+After reading or extraction:
 1. identify factual content needed for the current task;
 2. identify durable writing/administrative rules;
 3. separate one-off facts from reusable knowledge;
