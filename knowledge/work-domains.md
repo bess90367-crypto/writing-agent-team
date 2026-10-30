@@ -32,7 +32,7 @@ High-risk details:
 
 For a **first contact with a hospital teaching/administrative office after a student is accepted**, try to finish the setup in one email:
 1. identify the student/placement only as much as needed;
-2. ask for the exact official-letter addressee or routing details;
+2. ask for the exact official-letter addressee or routing details; if the school's document system lacks the unit/branch record, also confirm the full mailing address needed for dispatch;
 3. if an existing multi-year/umbrella internship agreement may apply, state it as background and ask whether this placement is covered rather than assuming;
 4. if a new agreement is required, ask whether an electronic copy can be provided first so the school can complete internal sealing and send it with the official letter;
 5. ask what internship-related documents should accompany the letter, including any required format, copies, or deadlines when relevant.
