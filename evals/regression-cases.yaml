@@ -179,6 +179,17 @@ cases:
       - "claim the workbook was inspected when no attachment was supplied"
       - "invent a refund or follow-up commitment"
 
+  - id: traditional-chinese-name-list-word-paste
+    scenario: image_transcription_output_format
+    prompt: "純文字測試（沒有附圖片）：以下三個姓名已由人工核對，依序為「張儷瑄、鄭昕予、黃筱寧」。使用者要貼到 Word 表格，每人一格，請輸出可直接貼上的直行名單。不要自行校正或改寫姓名。"
+    must:
+      - "preserve the three supplied names exactly, character by character and in the original order"
+      - "put one name on each line, suitable for pasting into separate Word table cells"
+    must_not:
+      - "replace uncommon or similar-looking Traditional Chinese characters with more familiar ones"
+      - "add bullets, numbering, commentary, or extra separators to the name list"
+      - "claim to have inspected an image that was not supplied"
+
   - id: hospital-first-contact-conditional-coordination
     scenario: hospital_internship_email
     prompt: "學生已錄取某醫院分院實習，第一次聯繫該院教學行政窗口。學校公文系統沒有該分院資料，需要確認公文正本受文單位、院區郵寄地址，以及是否須副本給學生實習科別或其他單位；之前與同體系其他院區有多年期實習合約，但不確定是否適用；若需新約，希望先取得電子檔辦理校內用印。已知學生實習前可能涉及體檢、保險證明等資料，尚不確定院方要求哪些、哪些可隨公文檢附或需另外繳交。請擬一封簡潔且一次問清楚的信。"
