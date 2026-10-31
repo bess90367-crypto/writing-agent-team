@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added a targeted Traditional Chinese name-list transcription safeguard after a reported misreading: verify each character against the image, flag uncertainty rather than guess, and format Word-table paste lists one name per line. Added a text-only fidelity/format regression without pretending it tests image recognition.
 - Corrected an over-narrow insurance-claim payer rule: the original user request explicitly asked to confirm who advanced payment *in the same email* as the aggregate-total spreadsheet correction. Keep the format-only no-payer safeguard, but honor explicit combined requests; added a contrasting regression case with the stated total and placement instructions.
 - Narrowed the insurance-claim payer check to situations where reimbursement recipient identification actually matters; a format-only spreadsheet correction must not add an unrelated question about who advanced payment. Updated the regression case accordingly.
 - Fixed an attachment-less insurance spreadsheet regression case that previously required impossible file inspection: test now uses the user's stated workbook/example difference and explicitly forbids claims of independent verification; actual attachments still require inspection under the ingestion policy.
