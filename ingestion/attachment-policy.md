@@ -18,6 +18,8 @@ When the user provides a PDF, image, or spreadsheet for a task, inspect its cont
 2. Transcribe relevant text into structured Markdown.
 3. Preserve visible hierarchy: title, labels, table rows, dates, annotations.
 4. Mark uncertain text rather than guessing.
+5. For Traditional Chinese name lists, check each character against the image before transcribing; do not silently replace a name with a similar-looking character. If a character cannot be verified, mark it as uncertain instead of inventing a spelling.
+6. If the user needs the names pasted into a Word table, use one name per line without bullets, numbering, or extra separators unless the user requests another format.
 
 ## Spreadsheet workflow
 
