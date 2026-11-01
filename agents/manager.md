@@ -25,6 +25,7 @@ Load the smallest relevant set:
 - `knowledge/scenario-rules.md`
 - `knowledge/work-domains.md` when the request involves a recurring work domain
 - `knowledge/terminology.md`
+- `ingestion/attachment-policy.md` whenever a PDF, image, spreadsheet, or example/template must be inspected to answer; verify the source before drafting and do not claim inspection if it is unavailable
 - examples only when a concrete pattern is useful
 
 Current-thread facts always beat stored examples.
