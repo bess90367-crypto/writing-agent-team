@@ -35,6 +35,12 @@ cases:
     expected_support: [critic]
     expected_knowledge: [knowledge/work-domains.md]
 
+  - id: route-attachment-dependent-insurance-email
+    input: "學生提供保費請款Excel與學校範例，請先核對要填逐人明細還是總額，再幫我寫信請學生修正。"
+    expected_primary: email_writer
+    expected_support: [critic]
+    expected_knowledge: [ingestion/attachment-policy.md, knowledge/work-domains.md]
+
   - id: route-donation-fund-confirmation
     input: "我要回信給校友處，捐款單已收到並掃描附上，但還要確認指定的捐款基金"
     expected_primary: email_writer
