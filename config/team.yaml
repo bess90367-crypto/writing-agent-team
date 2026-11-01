@@ -34,6 +34,8 @@ knowledge:
     - knowledge/scenario-rules.md
   by_domain:
     - knowledge/work-domains.md
+  by_attachment:
+    - ingestion/attachment-policy.md
 
 default_pipeline:
   - manager
