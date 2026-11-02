@@ -39,6 +39,10 @@ For a **first contact with a hospital teaching/administrative office after a stu
 
 Do not assume that different branches/departments of the same hospital follow the same sequence. Frame prior cooperation as context, then ask the current unit to confirm its own process.
 
+### Reissuing a previously dispatched official letter
+
+If a hospital asks the school to resend an official letter because an attachment is missing, distinguish **a recipient-side missing document** from **a failed original dispatch**. Verify the original dispatch date, document number, and delivery status with the responsible school office before mentioning them; never invent them. Confirm the hospital's required reissue contents (for example, an original-letter page, a stamped fee receipt, or delivery evidence) rather than treating one hospital's checklist as universal. Where the student is relaying the request, ask the student to forward the proposed draft/attachment list to the hospital for one-pass confirmation before reissuing, if that is the agreed process. Keep the message brief and neutral, without implying fault or claiming the reissue is complete before it is sent.
+
 For internship-related insurance reimbursement or school claims, distinguish the detailed per-student calculation from the amount actually required on the school submission. If the school needs only a combined total, do not ask the student to provide individual premium amounts as the claim format. Confirm **who paid upfront** when the user explicitly asks for that confirmation or when identifying the reimbursement recipient is necessary; never infer the payer from the workbook. If the user asks for both a spreadsheet-format correction and a payer check, include **both** in the same message rather than treating the payer question as unrelated. For a format-only request with no payer-related instruction or need, do not introduce an unrelated payer question.
 
 ## Course / TA / student administration
