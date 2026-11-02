@@ -206,3 +206,18 @@ cases:
       - "demand a new agreement before its necessity is confirmed"
       - "invent confirmed attachment requirements, deadlines, or procedures"
       - "replace concrete pre-placement and official-letter attachment questions with a vague generic request"
+
+  - id: hospital-official-letter-reissue-confirm-before-dispatch
+    scenario: hospital_official_letter_reissue_email
+    prompt: "醫院說先前公文的附件遺失，請學校補發。校內已確認原公文投遞成功，但使用者沒有提供原發日期或文號。使用者要寫信請學生先將草擬補發公文內容轉給院方確認是否還需補充；院方確認無問題後才發文。請擬簡潔自然的學生回信。"
+    must:
+      - "briefly state the school has confirmed the reissue handling and present the proposed draft for hospital review"
+      - "ask the student to forward the draft to the hospital and confirm any additional required content in one pass"
+      - "make dispatch conditional on hospital confirmation"
+      - "distinguish original delivery success from the hospital's reported missing attachment"
+    must_not:
+      - "invent the original dispatch date, document number, attachment checklist, or evidence"
+      - "suggest the original letter was never delivered"
+      - "blame the hospital for losing an attachment"
+      - "claim the reissued letter has already been sent"
+      - "overexplain the school's internal back-and-forth"
