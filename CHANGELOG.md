@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added a focused regression case for changing an already-agreed external speaker date: preserve the stated reason and alternatives, keep apology proportionate, and maintain a consistent natural tone without inventing a confirmed replacement.
 - Added a narrowly scoped hospital official-letter reissue safeguard and regression case: verify original dispatch facts, avoid treating recipient-side missing attachments as failed delivery, and obtain a one-pass draft/attachment confirmation before reissuing without inventing dates or checklist items.
 - Connected the existing PDF/image/spreadsheet ingestion policy to Manager context selection, team configuration, and project instructions; added an attachment-dependent email routing case so spreadsheet corrections cannot bypass source verification.
 - Added a targeted Traditional Chinese name-list transcription safeguard after a reported misreading: verify each character against the image, flag uncertainty rather than guess, and format Word-table paste lists one name per line. Added a text-only fidelity/format regression without pretending it tests image recognition.
