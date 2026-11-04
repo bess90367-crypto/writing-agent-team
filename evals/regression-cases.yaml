@@ -221,3 +221,18 @@ cases:
       - "blame the hospital for losing an attachment"
       - "claim the reissued letter has already been sent"
       - "overexplain the school's internal back-and-forth"
+
+  - id: external-speaker-date-change-apology-tone
+    scenario: external_speaker_rescheduling_email
+    prompt: "已合作多次的學姐原訂12/10（四）11:00–13:00擔任職涯分享講師。今天收到校內通知，因本學期經費關帳較早，需改至11/25（三）或11/26（四），時間同為11:00–13:00；若兩日皆不便可再討論。使用者想知道是否需要道歉，並要求整封信語氣前後自然一致、不要太官腔。請提供一封可寄出的信。"
+    must:
+      - "briefly explain the school-side reason for changing the agreed date"
+      - "present both alternative dates with their shared time accurately"
+      - "ask which date works and allow neither to work"
+      - "use a consistent, natural, respectful tone throughout"
+      - "if acknowledging inconvenience or apologizing, keep it brief and proportional to the change"
+    must_not:
+      - "sound as though the speaker caused the schedule change"
+      - "mix excessively formal apologies with abrupt or commanding requests"
+      - "invent a confirmed replacement date or promise the event can definitely proceed on another date"
+      - "overexplain internal accounting details"
