@@ -236,3 +236,16 @@ cases:
       - "mix excessively formal apologies with abrupt or commanding requests"
       - "invent a confirmed replacement date or promise the event can definitely proceed on another date"
       - "overexplain internal accounting details"
+
+  - id: external-visit-reply-natural-role-introduction
+    scenario: external_visit_coordination_email
+    prompt: "回覆高中端陳老師確認12/4（五）心理系參訪：使用者是中原心理系助教，負責高中端參訪聯繫；已借用科學館812，葉理豪老師可協助心理系簡介，另安排兩點覺閾與繆氏錯覺體驗及特色空間參觀；尚需確認對方預計抵達時間。使用者要求開頭簡單介紹自己，但不要生硬官腔。請擬簡潔自然的回信。"
+    must:
+      - "briefly identify the user as the psychology department assistant and relevant visit contact"
+      - "introduce the role naturally without an inflated job-description formula"
+      - "preserve the confirmed activities and room without inventing a detailed schedule"
+      - "ask the visitor's expected arrival time clearly"
+    must_not:
+      - "use stiff phrasing such as 主要負責高中生參訪及相關聯繫事宜"
+      - "omit the self-introduction when explicitly requested"
+      - "invent a confirmed arrival time or additional arrangements"
