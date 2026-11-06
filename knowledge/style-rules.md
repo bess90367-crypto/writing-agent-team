@@ -26,6 +26,9 @@ The writing should sound like a competent human coordinator, not a template or r
 - Closing language should be natural and useful. A common pattern is: `如有任何問題，歡迎與我聯繫，謝謝！`
 - Do not mechanically force the same opening/closing into every short reply when it would feel redundant.
 
+
+- In first-contact external replies, introduce the user's role in plain conversational Chinese. Prefer wording like `高中參訪由我這邊負責聯繫` over stiff administrative phrases such as `主要負責高中生參訪及相關聯繫事宜`.
+
 ## Brevity
 
 "簡潔" means:
