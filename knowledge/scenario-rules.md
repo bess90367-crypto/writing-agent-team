@@ -67,3 +67,13 @@ For posters/forms:
 ## 11. Internal date screening before a wider scheduling poll
 
 When the user wants to check an internal team's constraints before polling a wider group, draft the internal check first. Ask whether the proposed date range works and whether any other dates should be excluded. Explicitly respect known unavailable dates; do not present them as available poll options or imply the wider poll has already been approved.
+
+## 12. External honorarium / reimbursement information request
+
+When an external partner's visit, lecture, or presentation has a school-funded honorarium but the actual payee is not yet known:
+
+- briefly state the available honorarium amount and what it is for;
+- do **not** assume which contact or presenter should receive it;
+- ask the partner to confirm the actual payee and have that person complete only the required/highlighted fields in the attached reimbursement form;
+- make the return action clear, while avoiding unnecessary explanation of internal accounting procedures.
+
