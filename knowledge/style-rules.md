@@ -29,6 +29,9 @@ The writing should sound like a competent human coordinator, not a template or r
 
 - In first-contact external replies, introduce the user's role in plain conversational Chinese. Prefer wording like `高中參訪由我這邊負責聯繫` over stiff administrative phrases such as `主要負責高中生參訪及相關聯繫事宜`.
 
+
+- For routine administrative email, avoid over-fragmenting a simple request into many short paragraphs. When the logic is straightforward, prefer 2–3 compact paragraphs that each carry a complete thought, so the message feels concise and natural rather than over-explained.
+
 ## Brevity
 
 "簡潔" means:
