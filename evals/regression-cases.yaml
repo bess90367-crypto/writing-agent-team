@@ -249,3 +249,29 @@ cases:
       - "use stiff phrasing such as 主要負責高中生參訪及相關聯繫事宜"
       - "omit the self-introduction when explicitly requested"
       - "invent a confirmed arrival time or additional arrangements"
+
+  - id: external-partner-honorarium-payee-flexibility
+    scenario: external_honorarium_email
+    prompt: "要寫給長期合作的兩間基金會主任：本學期學校核給每間基金會講員費2,000元，作為對長期支持的感謝。附件暫按每間兩位人員各1,000元填寫，請主任確認合適人選及黃底資料後回傳；若希望同一人領取全部2,000元，回信告知即可調整。請用自然精簡的語氣擬信。"
+    must:
+      - "thank the partners naturally without excessive ceremony"
+      - "preserve the amount per partner and provisional two-payee allocation"
+      - "offer a single-payee full-amount alternative without deciding for the partner"
+      - "ask to confirm highlighted details and return the attachment"
+      - "keep the message compact and easy to read"
+    must_not:
+      - "assume the provisional payees are final"
+      - "invent recipient identities, eligibility rules, or accounting requirements"
+      - "overexplain internal reimbursement workflow"
+
+  - id: compact-admin-email-with-complete-asks
+    scenario: administrative_email_style
+    prompt: "寫一封簡短行政信給合作單位：已完成表單初稿，請對方確認黃底資料並回傳；如需改由同一人領取講員費，請一併告知。使用者不喜歡每句話都獨立成段，但希望事情一次說清楚。"
+    must:
+      - "use cohesive paragraphs rather than a separate paragraph for each sentence"
+      - "retain both the highlighted-field confirmation and conditional payee-change request"
+      - "use natural, concise, respectful language"
+    must_not:
+      - "drop necessary actions merely to shorten the email"
+      - "force an exact paragraph count when content does not warrant it"
+      - "add unrequested accounting explanations or follow-up promises"
