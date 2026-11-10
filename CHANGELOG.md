@@ -3,6 +3,8 @@
 ## Unreleased
 
 ### Maintenance
+- Documented the 2026-11-10 honorarium-request guidance already added to scenario rules: acknowledge partner support, explain available funding, allow payee selection and full-amount allocation, and request only necessary highlighted reimbursement details.
+- Documented the 2026-11-10 compact-email style refinement already added to style rules: prefer 2–3 cohesive paragraphs for straightforward administrative requests without losing necessary context or action items.
 - Added regression coverage for natural, brief role introductions in external school-visit replies, preserving confirmed activities and asking for arrival time without inventing a schedule; complements the existing style rule without expanding it to all emails.
 - Added a focused regression case for changing an already-agreed external speaker date: preserve the stated reason and alternatives, keep apology proportionate, and maintain a consistent natural tone without inventing a confirmed replacement.
 - Added a narrowly scoped hospital official-letter reissue safeguard and regression case: verify original dispatch facts, avoid treating recipient-side missing attachments as failed delivery, and obtain a one-pass draft/attachment confirmation before reissuing without inventing dates or checklist items.
