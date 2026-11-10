@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added two focused regression cases for the 2026-11-10 honorarium/payee-flexibility guidance and compact administrative email structure, without expanding either preference into a universal template.
 - Documented the 2026-11-10 honorarium-request guidance already added to scenario rules: acknowledge partner support, explain available funding, allow payee selection and full-amount allocation, and request only necessary highlighted reimbursement details.
 - Documented the 2026-11-10 compact-email style refinement already added to style rules: prefer 2–3 cohesive paragraphs for straightforward administrative requests without losing necessary context or action items.
 - Added regression coverage for natural, brief role introductions in external school-visit replies, preserving confirmed activities and asking for arrival time without inventing a schedule; complements the existing style rule without expanding it to all emails.
