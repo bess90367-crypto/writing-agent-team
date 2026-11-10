@@ -70,10 +70,11 @@ When the user wants to check an internal team's constraints before polling a wid
 
 ## 12. External honorarium / reimbursement information request
 
-When an external partner's visit, lecture, or presentation has a school-funded honorarium but the actual payee is not yet known:
+When an external partner's visit, lecture, supervision, or presentation has school-funded honorarium support but the actual payee is not yet known:
 
-- briefly state the available honorarium amount and what it is for;
-- do **not** assume which contact or presenter should receive it;
-- ask the partner to confirm the actual payee and have that person complete only the required/highlighted fields in the attached reimbursement form;
-- make the return action clear, while avoiding unnecessary explanation of internal accounting procedures.
+- first explain that funding was successfully obtained this term and, when relevant, frame it as a way to thank a long-term partner for supporting the program;
+- state the amount per partner/unit and the intended eligible recipients (for example, the visit presenter or course supervisor) without deciding the payee on the partner's behalf;
+- ask the partner to have the selected payee complete only the required/highlighted fields in the attached reimbursement form and return it;
+- if the reimbursement form is currently split across multiple presenters but the partner may prefer one person to receive the full amount, explicitly invite them to say so and offer to adjust the reimbursement paperwork;
+- make the action request clear while avoiding unnecessary explanation of internal accounting procedures.
 
