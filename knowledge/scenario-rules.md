@@ -78,3 +78,14 @@ When an external partner's visit, lecture, supervision, or presentation has scho
 - if the reimbursement form is currently split across multiple presenters but the partner may prefer one person to receive the full amount, explicitly invite them to say so and offer to adjust the reimbursement paperwork;
 - make the action request clear while avoiding unnecessary explanation of internal accounting procedures.
 
+
+## 13. Targeted internal compliance reminder with source notice
+
+When a central administrative unit sends a lengthy training/compliance notice and the user has already checked which faculty or staff still need to complete a specific item:
+
+- lead with the **specific outstanding item** and the **user-requested deadline**, including whether it is before close of business; do not make recipients search the forwarded notice to find the action;
+- address the selected recipients without implying that every faculty member is noncompliant or that the user independently verified other requirements;
+- if the user supplies practical course-selection guidance, incorporate it near the action request, then place the original central-unit notice below as reference, clearly separated from the user's own request;
+- preserve exact course labels and deadlines. Do not confuse the original institution-wide compliance target with the user's narrower requested course, or invent a link, completion status, sanction, or deadline from the forwarded notice.
+
+This is a targeted notice pattern, not a mandatory template for all faculty emails.
