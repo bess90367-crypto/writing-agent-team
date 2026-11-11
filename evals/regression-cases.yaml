@@ -275,3 +275,17 @@ cases:
       - "drop necessary actions merely to shorten the email"
       - "force an exact paragraph count when content does not warrant it"
       - "add unrequested accounting explanations or follow-up promises"
+
+  - id: targeted-faculty-training-reminder-with-forwarded-notice
+    scenario: faculty_compliance_reminder_email
+    prompt: "資訊處來信提醒全校資安教育訓練符合率須達100%，並附課程建議及修課指引。使用者已在系統確認尚未完成指定項目的老師，現在只寄給這些老師，請他們在本週五11/13下班前完成『年度通識課程』。使用者另外提供選課建議，要整合進信件，最後以『其餘詳情請參考以下資訊處來信』引出原始通知。請寫自然精簡的提醒信；未提供的選課建議內容不可自行杜撰。"
+    must:
+      - "state the specific 年度通識課程 item and 11/13 before-close-of-business deadline prominently"
+      - "make clear this is directed to recipients identified as still needing the item"
+      - "place supplied practical guidance before a clearly introduced original Information Office notice"
+      - "preserve the distinction between the department's targeted reminder and institution-wide security-training guidance"
+    must_not:
+      - "claim all teachers are incomplete"
+      - "invent missing course guidance, URLs, penalties, or verified completion details"
+      - "replace the specific course with a vague request to complete all training"
+      - "bury the deadline in a lengthy verbatim forward"
