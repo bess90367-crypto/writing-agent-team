@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added a narrowly scoped targeted faculty compliance-reminder pattern and regression case based on the 2026-11-11 information-security training request: preserve the exact outstanding course/deadline, separate practical guidance from the forwarded source notice, and avoid inventing missing details.
 - Added two focused regression cases for the 2026-11-10 honorarium/payee-flexibility guidance and compact administrative email structure, without expanding either preference into a universal template.
 - Documented the 2026-11-10 honorarium-request guidance already added to scenario rules: acknowledge partner support, explain available funding, allow payee selection and full-amount allocation, and request only necessary highlighted reimbursement details.
 - Documented the 2026-11-10 compact-email style refinement already added to style rules: prefer 2–3 cohesive paragraphs for straightforward administrative requests without losing necessary context or action items.
