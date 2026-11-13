@@ -43,3 +43,11 @@
 - Warm and welcoming.
 - Keep event essentials prominent.
 - For posters and forms, prioritize readability and space.
+
+### Alumni mass-mailing vs. individual guests
+
+- For large batches of alumni with highly similar administrative content, a neutral collective salutation such as `親愛的系友您好：` is preferred when personalizing every name would add meaningful error risk or workload.
+- Preserve warmth through specific context in the body (for example, the exact type of support or gift), rather than forcing a name into every salutation.
+- For a small number of invited guests or VIPs, individual emails using the person's natural title/name are preferred because the relationship and role may differ by recipient.
+- When physical thank-you cards are enclosed with gifts, it can be more efficient to keep the email generic while personalizing the printed card with the recipient's name.
+
