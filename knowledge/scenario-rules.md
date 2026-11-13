@@ -89,3 +89,16 @@ When a central administrative unit sends a lengthy training/compliance notice an
 - preserve exact course labels and deadlines. Do not confuse the original institution-wide compliance target with the user's narrower requested course, or invent a link, completion status, sanction, or deadline from the forwarded notice.
 
 This is a targeted notice pattern, not a mandatory template for all faculty emails.
+
+## 14. Post-event gift mailing / receipt confirmation
+
+When thanking alumni, donors, guests, or ticket supporters after an event and confirming gift delivery:
+
+- separate recipient groups when the reason for receiving the gift or the confirmation needed is materially different;
+- name the exact gift when doing so helps the recipient identify whether it was received (for example, event gift, dinner gift, donation-threshold gift), and attach/reference a photo when visual confirmation reduces ambiguity;
+- for recipients who may already have received the gift onsite, ask them to confirm receipt first rather than automatically mailing a duplicate;
+- design the reply so one message can finish the coordination cycle: if received, they can simply confirm; if not received, they should state which item is missing and provide a mailing address in the same reply;
+- for recipients who definitely need mailing, ask directly for a convenient recipient address after a brief thank-you;
+- do not expose internal inventory anxiety or wording such as "怕重複寄送" when a neutral phrase like checking the distribution record is sufficient;
+- keep gratitude warm but concise, especially for alumni communications.
+
