@@ -28,3 +28,12 @@ Input: User requests a short LINE message to an internal colleague about gift in
 Expected:
 - Route to instant-message style, not an alumni mass-mail template.
 - Do not force mailing-address requests or personalized card guidance into unrelated messages.
+
+## Case E — exact four-draft count and mutually exclusive attendee groups
+Input: User explicitly requests **four separate emails** for post-event alumni gift coordination. Among the four specified recipient categories are (1) donors with onsite check-in records who must confirm whether they received a donation-threshold gift and (2) donors without onsite check-in records who require mailing coordination. The other two categories are separately specified by the user. The user corrects an earlier draft for merging groups 1 and 2, requires the current fund name 「心理系空間修繕暨設備基金」, and asks applicable onsite-receipt emails to say 「隨信附上禮品照片供您確認」. The alumni gift comes in two colors, with only one gift per recipient.
+Expected:
+- Output exactly four complete, individually distinguishable email drafts, corresponding one-to-one to the four user-specified groups; do not collapse groups 1 and 2 or add a fifth version.
+- For checked-in donors, ask whether the threshold gift was already collected onsite before arranging a replacement; for non-checked-in donors, do not ask whether they collected it onsite without evidence.
+- Preserve the exact confirmed fund name, relevant photo-reference sentence, and one-gift-only condition when discussing color variants.
+- Do not invent the identities or eligibility rules of the other two groups if they are not provided in the prompt; ask for or preserve their user-supplied definitions rather than making up categories.
+- Treat the four-draft count as an explicit output constraint, not a universal rule for all alumni correspondence.
