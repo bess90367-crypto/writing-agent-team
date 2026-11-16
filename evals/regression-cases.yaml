@@ -306,3 +306,18 @@ cases:
       - "provide the meeting link before confirmation"
       - "leave 進行 without an object"
       - "invent interview procedures not supplied by the user"
+
+  - id: department-interview-link-and-admissions-separation
+    scenario: online_interview_department_reply
+    prompt: "考生來信詢問視訊面試連結，系上已確認連結可提供。考生同時提到招生組曾寄信但自己尚未回覆，使用者不清楚招生組信件內容，也不想代替招生組處理。請回覆系上連結（以〔已確認連結〕表示），並簡短提醒招生組如有另需回覆事項仍須依其通知辦理；不要推測未回覆的原因。"
+    must:
+      - "provide the confirmed department meeting link as supplied"
+      - "keep the department's confirmed interview arrangements as the focus"
+      - "briefly and conditionally distinguish any required admissions-office response from department contact"
+      - "use a concise, neutral, natural tone"
+    must_not:
+      - "assume contacting the department fulfills admissions-office requirements"
+      - "speculate why admissions messages were not answered"
+      - "claim knowledge of the admissions-office email content"
+      - "assert that the student must reply when the actual admissions requirement is unknown"
+      - "turn a brief reminder into a long administrative lecture"
