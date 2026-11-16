@@ -123,3 +123,15 @@ When a student mentions an unresolved message or requirement from another univer
 - if there is a risk the student may assume department contact replaces the other unit's required action, add one brief neutral reminder that the two matters are separate;
 - phrase it conditionally when the sender has not seen the other unit's message (for example, if that message still requires a reply or action, please follow that unit's instructions);
 - keep the department email focused on the department's own confirmed arrangement and next steps.
+
+
+## 17. Final headcount and meal confirmation for partner visits
+
+When a partner visit is already scheduled and the partner has previously agreed to help order meals:
+
+- treat the message as a **final logistics confirmation**, not a new request to renegotiate the visit;
+- state the final participant count clearly, including whether the sender/leader is additional to the registered participants;
+- give the exact meal quantity and dietary split in one place;
+- state any reimbursement ceiling or signature/document requirement only when it affects what the partner needs to order or do;
+- if the partner's speaker/staff meal can also be reimbursed, say so explicitly and note any required signature, without exposing unrelated internal accounting details;
+- do not re-explain the full visit background, previously confirmed schedule, or honorarium arrangement unless it is necessary for the current action.
