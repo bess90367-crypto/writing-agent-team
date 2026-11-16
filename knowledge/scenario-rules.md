@@ -102,3 +102,14 @@ When thanking alumni, donors, guests, or ticket supporters after an event and co
 - do not expose internal inventory anxiety or wording such as "怕重複寄送" when a neutral phrase like checking the distribution record is sufficient;
 - keep gratitude warm but concise, especially for alumni communications.
 
+
+
+## 15. Fixed-time confirmation vs. open scheduling
+
+When the sender has already chosen a proposed time and only needs the recipient to confirm whether it works:
+
+- state the exact date and time as the proposed arrangement;
+- ask only whether that time is convenient/possible and request a reply confirming it;
+- do **not** ask the recipient to choose or provide another time unless the user explicitly wants alternatives;
+- if a later link or instruction should only be sent after confirmation, say so plainly;
+- make verbs complete and specific (for example, write "進行設備測試" rather than leaving "進行" without an object).
