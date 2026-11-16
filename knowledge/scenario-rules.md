@@ -113,3 +113,13 @@ When the sender has already chosen a proposed time and only needs the recipient 
 - do **not** ask the recipient to choose or provide another time unless the user explicitly wants alternatives;
 - if a later link or instruction should only be sent after confirmation, say so plainly;
 - make verbs complete and specific (for example, write "進行設備測試" rather than leaving "進行" without an object).
+
+
+## 16. Separate department coordination from central admissions/administrative requirements
+
+When a student mentions an unresolved message or requirement from another university unit (for example, Admissions) while corresponding with the department:
+
+- do not speculate about what happened or answer for the other unit;
+- if there is a risk the student may assume department contact replaces the other unit's required action, add one brief neutral reminder that the two matters are separate;
+- phrase it conditionally when the sender has not seen the other unit's message (for example, if that message still requires a reply or action, please follow that unit's instructions);
+- keep the department email focused on the department's own confirmed arrangement and next steps.
