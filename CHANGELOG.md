@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added a narrowly scoped fixed-time confirmation rule and regression case for video-interview equipment testing: ask whether the already proposed time works (not for a preferred time), and send the meeting link only after confirmation. This does not override open-ended scheduling requests.
 - Added focused alumni gift-mailing and recipient-personalization regression cases covering uncertain onsite receipt, confirmed mail recipients, batch versus individual salutations, and routing boundaries; complements the two 2026-11-13 knowledge updates without making them universal rules.
 - Added a narrowly scoped targeted faculty compliance-reminder pattern and regression case based on the 2026-11-11 information-security training request: preserve the exact outstanding course/deadline, separate practical guidance from the forwarded source notice, and avoid inventing missing details.
 - Added two focused regression cases for the 2026-11-10 honorarium/payee-flexibility guidance and compact administrative email structure, without expanding either preference into a universal template.
