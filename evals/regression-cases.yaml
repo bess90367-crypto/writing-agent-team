@@ -321,3 +321,17 @@ cases:
       - "claim knowledge of the admissions-office email content"
       - "assert that the student must reply when the actual admissions requirement is unknown"
       - "turn a brief reminder into a long administrative lecture"
+
+  - id: partner-visit-final-meal-count-confirmation
+    scenario: external_partner_visit_logistics_email
+    prompt: "合作基金會已同意協助訂參訪午餐，參訪時間與講員費先前均已確認。現在最終報名為18位學生，另有1位帶隊老師，故需訂19份學生及帶隊人員餐點（葷17、素2）；合作單位講師若也要訂餐，可另列1份，且該份符合核銷但須由講師簽名。請用自然精簡的語氣通知合作窗口確認數量，不要自行假定講師一定用餐或把講師餐併入19份。"
+    must:
+      - "distinguish 18 registered students from the additional 1 leader and accurately total 19 participant meals"
+      - "preserve the provided 17 regular and 2 vegetarian meal split"
+      - "keep the optional speaker meal separate and mention its signature requirement only if ordered"
+      - "focus on final meal logistics with a concise and courteous request"
+    must_not:
+      - "silently include the optional speaker meal in the 19 participant meals"
+      - "invent a confirmed speaker meal, price ceiling, or reimbursement amount"
+      - "reopen the already confirmed visit schedule or honorarium arrangement"
+      - "bury the ordering action under a long retelling of the visit"
