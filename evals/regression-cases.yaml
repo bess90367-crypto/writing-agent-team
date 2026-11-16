@@ -289,3 +289,20 @@ cases:
       - "invent missing course guidance, URLs, penalties, or verified completion details"
       - "replace the specific course with a vague request to complete all training"
       - "bury the deadline in a lengthy verbatim forward"
+
+
+  - id: fixed-time-equipment-test-confirmation
+    scenario: online_interview_equipment_test_email
+    prompt: "系上已收到考生申請視訊面試的需求，甄試在本週三。使用者已決定於明日11/17 16:00–17:00進行設備測試，只要詢問考生這個時段是否可以；考生確認後才提供會議連結。請擬自然精簡的確認信。"
+    must:
+      - "state that the department has received the request for an online/video interview"
+      - "state the fixed proposed equipment-test time 11/17 16:00–17:00"
+      - "ask only whether that fixed time works and request a reply confirming"
+      - "make clear the meeting link will be provided after confirmation"
+      - "use a complete phrase such as 進行設備測試"
+    must_not:
+      - "ask the applicant to choose a time within the window"
+      - "ask for a preferred or convenient time"
+      - "provide the meeting link before confirmation"
+      - "leave 進行 without an object"
+      - "invent interview procedures not supplied by the user"
