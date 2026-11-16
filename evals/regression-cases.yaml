@@ -335,3 +335,18 @@ cases:
       - "invent a confirmed speaker meal, price ceiling, or reimbursement amount"
       - "reopen the already confirmed visit schedule or honorarium arrangement"
       - "bury the ordering action under a long retelling of the visit"
+
+  - id: online-interview-laptop-recommendation-with-reasons
+    scenario: online_interview_department_reply
+    prompt: "考生已完成視訊面試設備測試，系上要回信提供已確認的面試連結〔連結〕。使用者希望依照過往經驗先說明電腦連線較穩定，再說明面試委員為確認空間沒有其他人在場，當天可能請考生環視一圈以確認周遭環境，因此建議使用筆電。招生組另有信件但內容不明，僅在必要時簡短提醒依招生組通知辦理。請用自然、簡潔的語氣回信。"
+    must:
+      - "include the supplied confirmed interview link"
+      - "present the connection-stability reason and possible room-surroundings check before recommending a laptop"
+      - "describe the room check as a possibility rather than a confirmed universal requirement"
+      - "use natural wording such as 環視一圈，以確認周遭環境, not awkward camera-rotation instructions"
+      - "keep any admissions-office reminder brief and conditional"
+    must_not:
+      - "state that a laptop is mandatory or that every applicant must complete a 360-degree scan"
+      - "claim a laptop is more stable than all desktop computers"
+      - "invent admissions-office instructions or treat department contact as a substitute"
+      - "omit the practical reasons and simply insist on laptop use"
