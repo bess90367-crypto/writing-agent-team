@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added a focused regression for a final applicant reply after an equipment test is declined: when the earlier explanation has already been sent, acknowledge briefly and only remind the applicant to keep their phone reachable on interview day, without reopening settled scheduling or inventing a call commitment.
 - Added a focused online-interview laptop-advice regression case from the 2026-11-16 wording correction: give connection stability and possible surroundings check as reasons before recommending a laptop, describe the check conditionally and naturally, and avoid turning the recommendation into a universal requirement. Existing admissions-separation guidance remains unchanged.
 - Added a focused partner-visit final headcount/meal regression case for the new scenario rule: distinguish registered participants from the additional leader, preserve dietary counts, and keep optional speaker meals and signature requirements conditional; do not generalize these event-specific quantities.
 - Added a focused regression case for separating department interview coordination from unresolved Admissions requirements: include a neutral conditional reminder without guessing the other unit's email contents or assuming department contact replaces required replies; documents the existing scenario rule without generalizing it to all student emails.
