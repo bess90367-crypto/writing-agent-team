@@ -363,3 +363,17 @@ cases:
       - "pressure the applicant to reschedule a test they have declined"
       - "restate earlier laptop advice or invent interview procedures"
       - "promise a phone call or other follow-up not confirmed by the user"
+
+  - id: internal-faculty-visit-expense-budget-deadline
+    scenario: internal_faculty_line_reminder
+    prompt: "職涯處來信並來電提醒：實習訪視交通費尚有未核銷額度，因高教深耕計畫12月初關帳，請負責老師於11/18前回信告知預計至11/30會支用多少、多少不會支用，以便調配經費。使用者要在教師同仁LINE群標記該老師，語氣自然、簡短、尊重，提醒老師直接回覆職涯處；未回覆可能影響保留額度。請擬訊息。"
+    must:
+      - "state the 11/18 response deadline and identify the correct recipient of the reply"
+      - "request both planned spending through 11/30 and expected unused amount"
+      - "explain the budget-retention consequence accurately and without accusation"
+      - "use a short, respectful LINE-group tone suitable for a faculty colleague"
+    must_not:
+      - "say all remaining funds will definitely be forfeited or reassigned when only adjustment is confirmed"
+      - "invent the unspent balance or claim it is exactly 10,000"
+      - "mistake the 11/30 spending horizon for the 11/18 reply deadline"
+      - "turn the reminder into a lengthy forwarded email or order the teacher around"
