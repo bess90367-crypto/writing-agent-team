@@ -350,3 +350,16 @@ cases:
       - "claim a laptop is more stable than all desktop computers"
       - "invent admissions-office instructions or treat department contact as a substitute"
       - "omit the practical reasons and simply insist on laptop use"
+
+  - id: interview-test-declined-final-phone-reminder
+    scenario: online_interview_department_reply
+    prompt: "考生已收到系上說明：設備測試僅能在11/17 16:00–17:00進行，11/18上午無法改期。考生於11/17 15:54回覆手邊沒有可視訊的電腦，將於隔天直接面試並感謝提供測試機會。先前說明信已寄出，使用者現在只要簡短提醒考生明日保持電話暢通，不需重述限制或設備建議。請擬回覆。"
+    must:
+      - "acknowledge the applicant's latest message briefly"
+      - "remind the applicant to keep their phone reachable on interview day"
+      - "keep the response short and natural"
+    must_not:
+      - "repeat the already-sent equipment-test time restrictions or reasons"
+      - "pressure the applicant to reschedule a test they have declined"
+      - "restate earlier laptop advice or invent interview procedures"
+      - "promise a phone call or other follow-up not confirmed by the user"
