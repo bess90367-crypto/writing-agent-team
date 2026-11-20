@@ -3,6 +3,7 @@
 ## Unreleased
 
 ### Maintenance
+- Added one focused regression for repeated external-partner honorarium payee onboarding requests (2026-11-19 and 11-20): preserve both required bank documents, relay responsibility, and conditional transfer fees without inventing amounts or universalizing bank-specific rules. No global knowledge or routing change.
 - Added a targeted faculty LINE reminder regression for expiring internship-visit expense funding: distinguish the response deadline from the spending forecast horizon, request both planned and unused amounts, and avoid overstating reallocation consequences or assuming the full budget is unspent.
 - Added a focused regression for a final applicant reply after an equipment test is declined: when the earlier explanation has already been sent, acknowledge briefly and only remind the applicant to keep their phone reachable on interview day, without reopening settled scheduling or inventing a call commitment.
 - Added a focused online-interview laptop-advice regression case from the 2026-11-16 wording correction: give connection stability and possible surroundings check as reasons before recommending a laptop, describe the check conditionally and naturally, and avoid turning the recommendation into a universal requirement. Existing admissions-separation guidance remains unchanged.
