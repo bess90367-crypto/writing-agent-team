@@ -377,3 +377,17 @@ cases:
       - "invent the unspent balance or claim it is exactly 10,000"
       - "mistake the 11/30 spending horizon for the 11/18 reply deadline"
       - "turn the reminder into a lengthy forwarded email or order the teacher around"
+
+  - id: external-honorarium-new-payee-bank-documents
+    scenario: external_partner_reimbursement_email
+    prompt: "合作基金會兩位講員的收款資料尚未在學校建檔。使用者要寄信請基金會窗口協助轉達：兩位均須填寫附件「支付款項匯款委託書」並提供存摺封面影本；若收款帳戶不是郵局或兆豐銀行，匯款時會扣除手續費。請用自然、精簡、不帶命令感的語氣寫信，讓窗口清楚知道要轉達哪些事項。"
+    must:
+      - "request both the payment remittance authorization form and bankbook cover copy for each unregistered payee"
+      - "state the bank fee as conditional on accounts other than the two specified banks"
+      - "make clear that the partner contact is being asked to relay the information to the payees"
+      - "keep the request compact, polite, and administratively actionable"
+    must_not:
+      - "claim the payees have already been registered or paid"
+      - "invent a fee amount, deadline, submission channel, or extra personal documents"
+      - "describe the fee as applying to every bank account"
+      - "turn the specific banking detail into a universal reimbursement policy"
