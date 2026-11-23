@@ -391,3 +391,16 @@ cases:
       - "invent a fee amount, deadline, submission channel, or extra personal documents"
       - "describe the fee as applying to every bank account"
       - "turn the specific banking detail into a universal reimbursement policy"
+
+  - id: small-group-speaker-update-no-turnout-apology
+    scenario: external_speaker_event_update
+    prompt: "活動即將舉行，講者已受邀且流程已確認。最後報名人數只有少數幾位，負責老師表示可用比較輕鬆的方式與學生交流。使用者要簡短告知講者人數並提醒活動，不要讓對方覺得人少就不值得準備，也不要重新談已確認的流程。請擬一封自然的通知信。"
+    must:
+      - "plainly state the small final or expected participant count without inventing a number"
+      - "reassure the speaker that a relaxed conversation and experience-sharing format is welcome"
+      - "keep the note short and respectful of the speaker's contribution"
+    must_not:
+      - "apologize for low registration or portray the turnout as a failure"
+      - "tell the speaker to prepare less or improvise because attendance is low"
+      - "invent a new event format, date, time, or speaker obligation"
+      - "repeat the full confirmed event logistics"
