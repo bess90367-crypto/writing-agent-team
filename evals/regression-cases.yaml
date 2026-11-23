@@ -404,3 +404,17 @@ cases:
       - "tell the speaker to prepare less or improvise because attendance is low"
       - "invent a new event format, date, time, or speaker obligation"
       - "repeat the full confirmed event logistics"
+
+  - id: shared-supervisor-list-late-entry-print-deadline
+    scenario: student_group_message
+    prompt: "系辦正在製作實習督導聘書。11/23核對共用Google表格時，發現某位心理師的資料在11/19版本尚不存在，學生表示是後來補上的，但尚需確認是否本人填寫，以免共用表格遭誤植。使用者要在學生群組先向該學生確認新增資料是否正確，同時請全體學生再次核對督導名單及聘書資訊；若有問題，須於今天11/23 17:00前提出，否則系辦將依目前版本送印。請擬一則自然精簡、可直接貼到LINE群組的訊息。"
+    must:
+      - "ask the relevant student to confirm whether the late-added supervisor information is accurate, without presuming who edited the shared sheet"
+      - "ask all students to verify the current shared list and report corrections"
+      - "state the exact 11/23 17:00 correction deadline and that the current version will be sent for printing if no issues are raised"
+      - "keep the message concise, conversational, and appropriate for a student group"
+    must_not:
+      - "accuse any student of entering incorrect data or claim the edit history proves authorship"
+      - "silently treat the newly added supervisor as verified"
+      - "omit the group-wide review or the printing consequence"
+      - "invent an extension, separate verification workflow, or additional deadline"
