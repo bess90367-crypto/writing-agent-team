@@ -135,3 +135,13 @@ When a partner visit is already scheduled and the partner has previously agreed 
 - state any reimbursement ceiling or signature/document requirement only when it affects what the partner needs to order or do;
 - if the partner's speaker/staff meal can also be reimbursed, say so explicitly and note any required signature, without exposing unrelated internal accounting details;
 - do not re-explain the full visit background, previously confirmed schedule, or honorarium arrangement unless it is necessary for the current action.
+
+
+## 18. Small-group speaker update before an event
+
+When informing an invited speaker that only a small number of participants registered:
+
+- state the final/expected headcount plainly, without apologizing for turnout or making the number sound like a problem;
+- if the organizer or faculty lead has indicated that a small group can be handled more casually, translate that into reassurance such as "可以輕鬆、自在地和同學聊聊、分享經驗即可";
+- avoid wording that implies the speaker should reduce effort, improvise because attendance is low, or that the event is less important;
+- keep the note short and, when useful, pair it with a simple event reminder rather than re-explaining previously confirmed logistics.
