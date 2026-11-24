@@ -421,12 +421,25 @@ cases:
 
   - id: external-honorarium-revised-cash-payment
     scenario: external_honorarium_email
-    prompt: "原先請合作單位提供兩位講員的匯款資料，後來經費調整，改由一位領取全額2,000元並以現金發放。請寫信請窗口回覆領款人，以便調整領據；不再需要匯款帳戶。內部餐費節省等預算細節及個別領據簽署狀況不必說明。"
+    prompt: "原先已請合作單位確認兩位講員各1,000元及匯款資料，後因經費調整，每間合作單位講員費增加1,000元，合計3,000元。請窗口回覆兩位講員分別由誰領2,000元、誰領1,000元，以便調整領據；本次改為現金發放，無須再提供匯款帳戶。主旨須反映費用增加及需要回覆，不必詳述個別領據簽署狀況。"
     must:
-      - "briefly state the revised funding and cash payment arrangement"
+      - "state the increase from 2,000 to 3,000 per partner and the revised cash payment arrangement"
       - "explicitly cancel the earlier request for bank account information"
-      - "ask who will receive the full amount before adjusting the receipt"
+      - "ask the contact to identify both payees and their respective 2,000 and 1,000 allocations before adjusting receipts"
+      - "use a subject that signals the increase and requested confirmation"
     must_not:
+      - "collapse the two payees into one or confuse the increase with the new total"
       - "repeat obsolete bank-document or transfer-fee requirements"
-      - "disclose internal meal-budget savings or individual receipt signature status"
-      - "assume a payee or claim the receipt has already been adjusted"
+      - "disclose unnecessary internal budget or individual receipt signature details"
+      - "assume the allocation or claim receipts have already been adjusted"
+
+  - id: internal-honorarium-budget-change-justification
+    scenario: formal_admin_budget_change
+    prompt: "撰寫給學校的簡短經費變更用途說明：兩個合作單位講員費各增加1,000元，整體講員費原編列8,000元（含其他活動），調整為10,000元。希望理由正式合理，不只寫經費規劃調整。"
+    must:
+      - "preserve the overall 8,000 to 10,000 change and distinguish it from individual partner allocations"
+      - "give a concise formal rationale grounded in actual activity implementation and honorarium funding needs"
+    must_not:
+      - "invent specific additional duties, attendance, performance outcomes, or funding sources"
+      - "replace the overall budget with the subtotal for the two partners"
+      - "use an external-partner email salutation or request payee confirmation"
