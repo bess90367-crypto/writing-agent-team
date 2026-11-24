@@ -418,3 +418,15 @@ cases:
       - "silently treat the newly added supervisor as verified"
       - "omit the group-wide review or the printing consequence"
       - "invent an extension, separate verification workflow, or additional deadline"
+
+  - id: external-honorarium-revised-cash-payment
+    scenario: external_honorarium_email
+    prompt: "原先請合作單位提供兩位講員的匯款資料，後來經費調整，改由一位領取全額2,000元並以現金發放。請寫信請窗口回覆領款人，以便調整領據；不再需要匯款帳戶。內部餐費節省等預算細節及個別領據簽署狀況不必說明。"
+    must:
+      - "briefly state the revised funding and cash payment arrangement"
+      - "explicitly cancel the earlier request for bank account information"
+      - "ask who will receive the full amount before adjusting the receipt"
+    must_not:
+      - "repeat obsolete bank-document or transfer-fee requirements"
+      - "disclose internal meal-budget savings or individual receipt signature status"
+      - "assume a payee or claim the receipt has already been adjusted"
