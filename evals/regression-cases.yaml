@@ -443,3 +443,27 @@ cases:
       - "invent specific additional duties, attendance, performance outcomes, or funding sources"
       - "replace the overall budget with the subtotal for the two partners"
       - "use an external-partner email salutation or request payee confirmation"
+
+  - id: student-visit-reminder-attached-itinerary-and-reply-deadline
+    scenario: student_email
+    prompt: "要寄參訪行前通知給已報名學生，集合時間為上午8:20，完整時間規劃表已在報名表提供且會隨信附上。除了集合時間外不必重述其他行程。需要假單或因故無法參與者均須於明日12:00前回信；無法參與者即使已到辦公室口頭告知也須回信。"
+    must:
+      - "highlight the supplied meeting time and refer to the attached itinerary rather than restating it"
+      - "state both reply triggers and the shared deadline clearly"
+      - "explicitly require an email reply from absentees even if they previously notified the office verbally"
+    must_not:
+      - "require every registered student to reply"
+      - "invent meeting locations, itinerary details, or leave procedures"
+      - "treat prior verbal notice as sufficient for absence"
+
+  - id: external-honorarium-confirm-revised-receipts-after-allocation
+    scenario: external_honorarium_email
+    prompt: "合作單位已回覆兩位講員的費用分配，使用者已備妥調整後領據並將隨信附上。請窗口協助確認填寫資料是否正確；若無誤，使用者活動當天會帶紙本過去，講員也可以選擇先簽，當天取得簽妥領據即可。"
+    must:
+      - "acknowledge the confirmed allocation without requesting it again"
+      - "refer to the revised attached receipts and ask the contact to verify the filled-in details"
+      - "distinguish optional advance signing from the requirement to obtain signed receipts on the event day"
+    must_not:
+      - "require advance signing, scanning, or return by email"
+      - "reopen bank-account collection or invent a new deadline"
+      - "claim the receipts have already been signed or verified"
