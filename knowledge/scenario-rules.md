@@ -145,3 +145,14 @@ When informing an invited speaker that only a small number of participants regis
 - if the organizer or faculty lead has indicated that a small group can be handled more casually, translate that into reassurance such as "可以輕鬆、自在地和同學聊聊、分享經驗即可";
 - avoid wording that implies the speaker should reduce effort, improvise because attendance is low, or that the event is less important;
 - keep the note short and, when useful, pair it with a simple event reminder rather than re-explaining previously confirmed logistics.
+
+
+## 19. Borrowing specialty rooms for visits or outreach activities
+
+When asking faculty/staff who manage specialty spaces (for example, eye-tracking or EEG labs) whether a visit may use the room:
+
+- list the **actual room-use/visit window**, not the full event duration, when the room is only needed for a short segment;
+- briefly identify the event and visitor group only to the extent needed for the manager to judge access;
+- if multiple nearby events need the same rooms and the recipients/purpose are the same, combine them in one email and separate the requested time windows clearly;
+- phrase the request around whether the rooms can be opened/borrowed during those specific windows, rather than implying the rooms are occupied for the whole event;
+- keep any usage requirements or precautions as a short closing request.
