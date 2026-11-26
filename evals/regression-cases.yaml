@@ -479,3 +479,18 @@ cases:
       - "request the full event duration as the borrowing period"
       - "invent access arrangements, staffing, or equipment permissions"
       - "merge the two distinct dates or time windows"
+
+  - id: partner-visit-late-withdrawal-pending-confirmation
+    scenario: external_partner_visit_logistics_email
+    prompt: "原訂明日參訪的8位學生中有2位臨時取消，剩6位。合作單位過去曾因報名人數不足取消參訪，目前尚未確認本次能否照常進行。請分別擬給合作窗口的確認信及給負責老師的簡短進度訊息；已寄出確認信，目前等待回覆。老師希望盡可能維持活動，以保障已報名學生。"
+    must:
+      - "integrate the original count, withdrawals and remaining count naturally"
+      - "distinguish a late change requiring partner confirmation from routine final meal logistics"
+      - "ask the partner whether the original visit can proceed without presuming approval"
+      - "report the pending confirmation accurately to the faculty lead and preserve the preference to proceed without presenting it as a final decision"
+    must_not:
+      - "invent a minimum attendance threshold or claim the partner has refused"
+      - "promise to renegotiate after a refusal or imply a refusal can be overridden"
+      - "announce cancellation or confirmed continuation before the partner replies"
+      - "repeat the full itinerary or blame the withdrawing students"
+
