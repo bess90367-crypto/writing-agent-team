@@ -467,3 +467,15 @@ cases:
       - "require advance signing, scanning, or return by email"
       - "reopen bank-account collection or invent a new deadline"
       - "claim the receipts have already been signed or verified"
+
+  - id: internal-specialty-room-borrowing-actual-windows
+    scenario: internal_faculty
+    prompt: "要寫信給管理眼動室及腦波室的老師，兩場參訪活動均為10:00–12:00，但第一場僅需10:40–11:00使用特色空間，第二場僅需11:20–11:40使用。兩場日期分別為12/4及12/8，收件人與借用目的相同，請合併詢問能否借用，並請老師告知使用注意事項。"
+    must:
+      - "combine the two requests in one email and distinguish the dates and actual room-use windows"
+      - "ask whether the rooms can be borrowed rather than treating access as confirmed"
+      - "briefly ask about usage precautions"
+    must_not:
+      - "request the full event duration as the borrowing period"
+      - "invent access arrangements, staffing, or equipment permissions"
+      - "merge the two distinct dates or time windows"
